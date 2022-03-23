@@ -1,0 +1,28 @@
+@import 'tailwindcss/base';
+
+@import 'tailwindcss/components';
+
+/* purgecss end ignore */
+
+@import 'tailwindcss/utilities';
+
+@font-face {
+  font-family: "";
+  font-weight: 700;
+  src: url();
+}
+
+h1 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+
+body {
+  background: #F2F2F2;
+}
