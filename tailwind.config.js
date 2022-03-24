@@ -2,8 +2,13 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        body: ['Tajawal']
+      }
+    },
     colors: {
+      'black': '#000000',
       'dark': '#131313',
       'light': '#F2F2F2',
       'pink': '#ff49db',
@@ -11,7 +16,7 @@ module.exports = {
       'green': '#13ce66',
       'yellow': '#ffc82c',
       'gray-dark': '#273444',
-      'gray': '#8492a6',
+      'gray': '#d5d5d5',
       'gray-light': '#d3dce6',
     },
   },

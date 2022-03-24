@@ -1,5 +1,5 @@
 <template>
-  	<div class="bg-orange flex flex-col items-center">
+  	<div class="flex flex-col items-center">
         
         <ArticleList :articles="articles" :category="category"/>
   	</div>
