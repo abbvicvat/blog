@@ -1,10 +1,10 @@
 <template>
-  	<div class="w-full px-32">
-		<nuxt-content class="bg-pink w-full" :document="article"/>
+  	<div class="w-full ">
+		<nuxt-content class="w-full px-4 sm:px-12 md:px-20 lg:px-24 xl:px-40" :document="article"/>
   	</div>
 </template>
 
-<script>
+<script>	
 export default {
   	name: 'IndexPage',
   	async asyncData({ params, redirect, $content }) {

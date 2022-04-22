@@ -1,17 +1,6 @@
 ---
 title: dynamic-programming-basics
-category: dynamic-programming
+categories: ["dynamic-programming"]
 date: '2022-03-23'
 title_disp: Dynamic Programming Basics
-category_disp: Dynamic Programming
 ---
-
-# TestTestTestTestTestTestTestTestTestTestTest
-
-## Code block test
-
-```js
-console.log(123);
-let x = 5;
-var y = "123";
-```

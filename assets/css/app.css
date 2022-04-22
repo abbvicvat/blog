@@ -12,10 +12,9 @@
     src: url(/fonts/Tajawal/Tajawal-Regular.ttf) format('truetype');
 }
 
+
 p {
     display: block;
-    margin-top: 1em;
-    margin-bottom: 1em;
     margin-left: 0;
     margin-right: 0;
 }
@@ -61,4 +60,12 @@ ol {
 body {
     background: #F2F2F2;
     font-family: Tajawal-Light;
+}
+
+.hoverLink:hover {
+    color: #0369CE;
+}
+
+.hoverLink2:hover {
+    background-color: #222222;
 }

@@ -42,7 +42,7 @@ export default {
   ],
 
   tailwindcss: {
-    cssPath: '~/assets/app.css',
+    cssPath: '~/assets/css/app.css',
     configPath: 'tailwind.config.js',
     exposeConfig: true
   },
@@ -51,5 +51,11 @@ export default {
   build: {
   },
 
-  
+  content: {
+    markdown: {
+      prism: {
+        theme: 'prism-themes/themes/prism-dracula.css'
+      }
+    }
+  },
 }

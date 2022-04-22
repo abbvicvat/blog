@@ -1,11 +1,9 @@
 <template>
     <div>
     <header>
-        <nav id="navbar" class="bg-gray py-1.5 flex justify-around items-center flex-wrap">
-            <nuxt-link class="mx-2" to="/"> Home </nuxt-link>
-            <nuxt-link class="mx-2" to="/graph"> Graphs </nuxt-link>
-            <nuxt-link class="mx-2" to="/data-structure"> Data Structures </nuxt-link>
-            <nuxt-link class="mx-2" to="/dynamic-programming"> Dynamic programming </nuxt-link>
+        <nav id="navbar" class="bg-gray pr-16 py-1.5 flex justify-end items-center flex-wrap">
+            <nuxt-link class="mx-10 hoverLink" to="/"> Home </nuxt-link>
+            <nuxt-link class="mx-10 hoverLink" to="/articles"> Articles </nuxt-link>
         </nav>
 
     </header>
@@ -15,6 +13,6 @@
 
 <script>
 export default {
-  name: 'DefaultLayout'
-}
+  name: 'DefaultLayout',
+};
 </script>

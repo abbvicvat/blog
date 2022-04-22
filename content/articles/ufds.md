@@ -1,9 +1,7 @@
 ---
 title: ufds
-category: data-structure
-date: '2022-03-23'
+categories: ["data-structure"]
+date: '2022-03-24'
 title_disp: Union Find Disjoint Set
-category_disp: Data Structure
 ---
 
-# Test

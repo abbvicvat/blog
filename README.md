@@ -1,5 +1,9 @@
 # blog
 
+## Inspiration
+
+https://www.behance.net/gallery/131905367/Dark-mode-Blog?tracking_source=search_projects%7Cblog%20design%20web  
+
 ## Build Setup
 
 ```bash
